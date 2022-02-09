@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Assets/style.css" />
+  </head>
+<body>
+    <div >
+        <div class="headline">
+            <header>
+                    <h1>Weather Dashboard</h1>
+                    <p id="Current Day"></p>
+            </header>
+        </div>
+
+
+
+        <div class="container"> 
+
+            <div class ="row justify-content-left">
+
+        <div class="col-md-3">
+
+        <div>
+            <main class="my-5 mx-auto">
+                <h1>Search City</h1>
+                <hr />
+            
+                <form id="city-form">
+                  <input type="text" class="form-input w-100" id="city-input" name="city-input" placeholder="Enter city name" />
+                  <button class="btn btn-info">Get Weather</button>
+                </form>
+            
+                <ul id="city-list"></ul>
+              </main>
+        </div>
+
+        </div>
+
+        <div class="col-md-8">
+        <div>
+            <div id=currentWeather> 
+                <h2>Today's Forecast:</h2>
+                <h3 id="cityName"></h3>
+                <img id="weatherIcon">
+                <ul>
+                    <li id="temp">  </li>
+                    <li id="wind"> </li>
+                    <li id="humidity"></li>
+                </ul>
+                <p id="uvIndex"> </P>
+            </div>
+        </div>
+
+        <div> 
+
+            <div> <h2>5 Day Forecast:</h2> </div>
+            <div id=futureWeather class = "d-flex flex-row justify-content-between">
+
+            </div>
+        </div>
+
+    </div>   
+    </div> 
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
+    ></script>
+    <script src="Assets/weather.js"></script>
+</body>
+
+</html>

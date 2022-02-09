@@ -1,0 +1,39 @@
+.headline {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+.futureweather {
+    border-style: double;
+}
+
+.currentweather {
+    background-color: aqua;
+}
+
+li {
+    list-style: none;
+}
+
+#currentday {
+    color: white;
+    text-align: center;
+}
+
+#none {
+    display: none;
+}
+
+.hot {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.green {
+    color: green;
+}
