@@ -3,6 +3,16 @@ Interactive Weather Dashboard that provides up-to-date information.
 
 The dashboard uses the Open Weather API to pull today's forcast and a 5-day forecast. 
 
+The Forecast Includes:
+<ul>
+  <li> Temperature </li>
+  <li> Wind Speed </li>
+  <li> Humidity </li>
+  <li> UV Index </li>
+  <li> Dates </li>
+  <li> Weather Icons </li>
+</ul>
+
 Here is a link to the deployed application: https://hculv.github.io/Weather-Dashboard/ 
 
 Here is a screenshot of the application:
